@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.on {
+    color: #ffcc00;
+}
+
+.off {
+    color: #f6f6f6;
+}
+
+form {
+    background-color: rgba(255, 255, 255, .45);
+    backdrop-filter: blur(1px);
+    border-radius: 20px 0px 0px 20px;
+}
+
+input[type="radio"] {
+    visibility: hidden;
+}
+
+.bgImg {
+    height: 100vh;
+    background-image: url(../public/images/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+p {
+    font-size: 24px;
+    font-weight: 600
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, .45);
+    backdrop-filter: blur(1px);
+
+
+}
